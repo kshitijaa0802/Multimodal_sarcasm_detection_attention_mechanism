@@ -110,7 +110,9 @@ OR
 
 access a deployed Streamlit link : https://appapppy-rbvxz5rucmc2smwvepappy5.streamlit.app/
 
-Screenshot Example: (optional, if you add images)
+Screenshot Example:
+<img width="1001" height="342" alt="image" src="https://github.com/user-attachments/assets/28acd9d7-6e5c-4852-9a38-cdd3a8a9f417" />
+
 
 ---
 
