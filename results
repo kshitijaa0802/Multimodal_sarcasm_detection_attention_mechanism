@@ -1,5 +1,15 @@
-The multimodal sarcasm detection model was evaluated on the MUStARD dataset, which provides annotated multimodal data consisting of text, audio, and video. The model was trained on 80% of the dataset, with 20% allocated for validation, to assess its performance on unseen data. After 50 epochs of training, the model's performance was evaluated using key metrics, including accuracy, precision, recall, F1-score, and the confusion matrix.
+The multimodal sarcasm detection model was evaluated on the MUStARD dataset, which provides annotated multimodal data consisting of text, audio, and video. 
+
+The model was trained on 80% of the dataset, with 20% allocated for validation, to assess its performance on unseen data. 
+
+After 50 epochs of training, the model's performance was evaluated using key metrics, including accuracy, precision, recall, F1-score, and the confusion matrix.
 
 Quantitative Results
-The model achieved an accuracy of 71.01% on the validation set, demonstrating strong overall performance in classifying sarcasm and non-sarcasm. The precision and recall scores were 83% and 63%, respectively, indicating that the model was highly effective at identifying sarcasm (high recall) while maintaining a relatively low number of false positives (high precision). The F1-score, which balances precision and recall, was 73%, further validating the model’s ability to accurately detect sarcasm without overfitting to one class.
+
+The model achieved an accuracy of 71.01% on the validation set, demonstrating strong overall performance in classifying sarcasm and non-sarcasm. 
+
+The precision and recall scores were 83% and 63%, respectively, indicating that the model was highly effective at identifying sarcasm (high recall) while maintaining a relatively low number of false positives (high precision). 
+
+The F1-score, which balances precision and recall, was 73%, further validating the model’s ability to accurately detect sarcasm without overfitting to one class.
+
 The model’s ability to leverage multimodal features through attention mechanisms was one of its key strengths. The single-layer attention mechanism enabled the model to focus on the most relevant parts of each modality, significantly improving its accuracy. The fusion of text, audio, and visual cues provided a comprehensive understanding of sarcasm, allowing the model to perform well even in the presence of subtle cues or ambiguous cases. The model demonstrated robustness, with strong performance across different types of sarcasm, including cases where sarcasm was expressed through exaggerated tone, facial expressions, or both.
