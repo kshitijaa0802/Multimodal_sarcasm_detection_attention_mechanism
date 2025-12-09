@@ -63,9 +63,9 @@ The attention mechanism enables the model to dynamically emphasize the most info
 | Metric     | Score |
 |------------|-------|
 | Accuracy   | **71%** |
-| Precision | **83** |
-| Recall    | **63** |
-| F1-Score  | **73** |
+| Precision | **83%** |
+| Recall    | **63%** |
+| F1-Score  | **73%** |
 
 > Detailed evaluation results are available in the `results/` directory.
 
