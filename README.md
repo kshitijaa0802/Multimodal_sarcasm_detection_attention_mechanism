@@ -1,19 +1,159 @@
-# 🎈 Blank app template
+# 🧠 Multimodal Sarcasm Detection using Attention Mechanism
 
-A simple Streamlit app template for you to modify!
+**Author:** Kshitijaa Aigalikar  
+**Degree:** MSc Data Science  
+**Publication:** International Journal of Innovative Research in Computer and Communication Engineering (IJIRCCE), May 2025  
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+---
 
-### How to run it on your own machine
+## 📌 Overview
 
-1. Install the requirements
+Sarcasm detection is a challenging Natural Language Processing (NLP) problem where the intended meaning of text differs from its literal interpretation. Text-only approaches often fail to capture sarcasm accurately, as sarcasm is highly contextual and frequently influenced by visual cues.
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+This project presents a **multimodal sarcasm detection system** that integrates **textual and visual information** using an **attention-based deep learning architecture**, resulting in improved sarcasm classification performance.
 
-2. Run the app
+---
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## 🎯 Objectives
+
+- Detect sarcasm using **combined text and image inputs**
+- Capture inter-modal dependencies using an **attention mechanism**
+- Build an **end-to-end deep learning pipeline**
+- Provide **real-time sarcasm detection** via a Streamlit web application
+
+---
+
+## 🧩 Dataset
+
+The dataset used in this project includes:
+- Text captions
+- Corresponding images
+- Binary sarcasm labels (sarcastic / non-sarcastic)
+- [MUStARD Dataset](https://github.com/dair-iitd/MUStARD)
+
+---
+
+## 🧠 Model Architecture
+
+- **Text Encoder:** BERT-based textual feature extractor  
+- **Visual Encoder:** CNN-based visual feature extractor  
+- **Audio Encoder:** MFCC-based audio feature extraction  
+- **Fusion Strategy:** Attention-based multimodal fusion  
+- **Classifier:** Fully connected neural network  
+
+The attention mechanism enables the model to dynamically emphasize the most informative modality (text, visual, or audio) during sarcasm prediction.
+
+---
+
+## ⚙️ Project Workflow
+
+1. Load MuSTARD dataset  
+2. Extract features:
+   - Textual embeddings (BERT)
+   - Visual features (CNN)
+   - Audio features (MFCC)
+3. Fuse multimodal features using attention  
+4. Train and evaluate the model  
+5. Perform real-time inference using Streamlit  
+
+---
+
+## 📊 Results
+
+| Metric     | Score |
+|------------|-------|
+| Accuracy   | **XX%** |
+| Precision | **XX** |
+| Recall    | **XX** |
+| F1-Score  | **XX** |
+
+> Detailed evaluation results are available in the `results/` directory.
+
+---
+
+## 🚀 How to Run
+
+1️⃣ Clone the repository
+
+git clone https://github.com/kshitijaa0802/Sarcasm_detection.git cd Sarcasm_detection
+
+
+2️⃣ Install dependencies
+
+pip install -r requirements.txt
+
+
+3️⃣ Run the Streamlit Application
+
+cd app
+streamlit run streamlit_app.py
+
+### The application allows users to:
+
+- Input text for sarcasm detection
+
+- Upload images for multimodal input
+
+- Analyze audio cues (if available)
+
+- See predicted label and probability scores in real time
+
+---
+
+## 🖥️ Streamlit Application Note
+
+GitHub viewers can see only the source code. To use the application, users must:
+
+Run it locally following the instructions above
+
+OR
+
+access a deployed Streamlit link : https://appapppy-rbvxz5rucmc2smwvepappy5.streamlit.app/
+
+Screenshot Example: (optional, if you add images)
+
+---
+
+
+## 🔮 Future Work
+
+Multilingual and cross-cultural sarcasm detection
+
+Video-level multimodal sarcasm analysis
+
+Transformer-based multimodal fusion
+
+Cloud deployment for public access
+
+---
+
+## 📜 Publication
+
+Published in IJIRCCE (May 2025)
+
+📄 DOI: 10.15680/IJIRCCE.2025.1305250
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🤝 Acknowledgements
+
+- MuSTARD dataset creators
+
+- Research community in multimodal learning
+
+- Open-source deep learning and audio processing libraries
+
+---
+
+## 🔗 Contact
+
+Developed by Kshitijaa Aigalikar
+
+LinkedIn : https://linkedin.com/in/kshitijaa-aigalikar
+
